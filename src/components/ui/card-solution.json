@@ -35,6 +35,10 @@
       "type": "component",
       "component": "ui.button",
       "repeatable": true
+    },
+    "destaque": {
+      "type": "boolean",
+      "required": true
     }
   },
   "config": {}

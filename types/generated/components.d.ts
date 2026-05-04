@@ -134,6 +134,7 @@ export interface UiCardSolution extends Struct.ComponentSchema {
     botoes: Schema.Attribute.Component<'ui.button', true>;
     descricaoBreve: Schema.Attribute.String;
     descricaoCompleta: Schema.Attribute.Text;
+    destaque: Schema.Attribute.Boolean & Schema.Attribute.Required;
     icone: Schema.Attribute.Media<'images'> & Schema.Attribute.Required;
     nome: Schema.Attribute.String & Schema.Attribute.Required;
     publicoAlvo: Schema.Attribute.String;
