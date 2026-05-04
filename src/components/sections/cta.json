@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_sections_ctas",
+  "info": {
+    "displayName": "CTA"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "descricao": {
+      "type": "text",
+      "required": true
+    },
+    "textoBotao": {
+      "type": "string",
+      "required": true
+    },
+    "urlBotao": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "config": {}
+}

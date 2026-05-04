@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_sections_educacao_heroes",
+  "info": {
+    "displayName": "Educação Hero"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "descricao": {
+      "type": "text",
+      "required": true
+    },
+    "icone": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "publicoAlvo": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "config": {}
+}

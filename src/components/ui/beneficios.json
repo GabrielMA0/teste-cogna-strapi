@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_ui_beneficios",
+  "info": {
+    "displayName": "Beneficios"
+  },
+  "options": {},
+  "attributes": {
+    "texto": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_ui_card_solutions",
+  "info": {
+    "displayName": "CardSolution"
+  },
+  "options": {},
+  "attributes": {
+    "nome": {
+      "type": "string",
+      "required": true
+    },
+    "icone": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "descricaoBreve": {
+      "type": "string"
+    },
+    "descricaoCompleta": {
+      "type": "text"
+    },
+    "publicoAlvo": {
+      "type": "string"
+    },
+    "beneficios": {
+      "type": "component",
+      "component": "ui.beneficios",
+      "repeatable": true
+    },
+    "botoes": {
+      "type": "component",
+      "component": "ui.button",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

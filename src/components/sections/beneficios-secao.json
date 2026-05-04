@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_sections_beneficios_secaos",
+  "info": {
+    "displayName": "Benefícios Seção"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "descricao": {
+      "type": "text",
+      "required": true
+    },
+    "beneficios": {
+      "type": "component",
+      "component": "ui.beneficios",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

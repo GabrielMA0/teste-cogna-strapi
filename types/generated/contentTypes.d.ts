@@ -536,7 +536,17 @@ export interface ApiPagePage extends Struct.CollectionTypeSchema {
     draftAndPublish: true;
   };
   attributes: {
-    body: Schema.Attribute.DynamicZone<['page.hero-banner']>;
+    body: Schema.Attribute.DynamicZone<
+      [
+        'sections.solucoes',
+        'sections.hero-banner-section',
+        'sections.depoimentos',
+        'sections.cta',
+        'sections.educacao-hero',
+        'sections.beneficios-secao',
+      ]
+    >;
+    categoria: Schema.Attribute.String;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;

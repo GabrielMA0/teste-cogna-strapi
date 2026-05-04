@@ -22,8 +22,16 @@
     "body": {
       "type": "dynamiczone",
       "components": [
-        "page.hero-banner"
+        "sections.solucoes",
+        "sections.hero-banner-section",
+        "sections.depoimentos",
+        "sections.cta",
+        "sections.educacao-hero",
+        "sections.beneficios-secao"
       ]
+    },
+    "categoria": {
+      "type": "string"
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "collectionName": "components_page_hero_banners",
+  "collectionName": "components_sections_hero_banner_sections",
   "info": {
     "displayName": "Hero Banner"
   },
@@ -10,7 +10,8 @@
       "required": true
     },
     "subtitulo": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "textoCta": {
       "type": "string"
@@ -18,17 +19,17 @@
     "urlCta": {
       "type": "string"
     },
-    "ativo": {
-      "type": "boolean",
-      "required": true,
-      "default": true
-    },
     "imagemFundo": {
       "type": "media",
       "multiple": false,
       "allowedTypes": [
         "images"
       ]
+    },
+    "ativo": {
+      "type": "boolean",
+      "required": true,
+      "default": true
     }
   },
   "config": {}

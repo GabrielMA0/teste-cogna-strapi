@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_ui_buttons",
+  "info": {
+    "displayName": "Button"
+  },
+  "options": {},
+  "attributes": {
+    "textoBotao": {
+      "type": "string",
+      "required": true
+    },
+    "urlBotao": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "config": {}
+}
