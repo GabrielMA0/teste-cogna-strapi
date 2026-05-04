@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_page_social_links",
+  "info": {
+    "displayName": "SocialLink"
+  },
+  "options": {},
+  "attributes": {
+    "socialNetwork": {
+      "type": "enumeration",
+      "required": true,
+      "enum": [
+        "Facebook",
+        "Linkedin",
+        "Instagram"
+      ]
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "config": {}
+}

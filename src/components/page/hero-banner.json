@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_page_hero_banners",
+  "info": {
+    "displayName": "Hero Banner"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "subtitulo": {
+      "type": "string"
+    },
+    "textoCta": {
+      "type": "string"
+    },
+    "urlCta": {
+      "type": "string"
+    },
+    "ativo": {
+      "type": "boolean",
+      "required": true,
+      "default": true
+    },
+    "imagemFundo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  },
+  "config": {}
+}

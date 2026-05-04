@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_page_imagem_hero_banners",
+  "info": {
+    "displayName": "Imagem Hero Banner"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "media": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  },
+  "config": {}
+}
