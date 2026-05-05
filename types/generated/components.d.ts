@@ -11,6 +11,18 @@ export interface PageMenuItem extends Struct.ComponentSchema {
   };
 }
 
+export interface PageSeo extends Struct.ComponentSchema {
+  collectionName: 'components_page_seos';
+  info: {
+    displayName: 'SEO';
+  };
+  attributes: {
+    descricao: Schema.Attribute.Text;
+    ogImage: Schema.Attribute.Media<'images'>;
+    titulo: Schema.Attribute.String;
+  };
+}
+
 export interface PageSocialLink extends Struct.ComponentSchema {
   collectionName: 'components_page_social_links';
   info: {
@@ -159,6 +171,7 @@ declare module '@strapi/strapi' {
   export module Public {
     export interface ComponentSchemas {
       'page.menu-item': PageMenuItem;
+      'page.seo': PageSeo;
       'page.social-link': PageSocialLink;
       'sections.beneficios-secao': SectionsBeneficiosSecao;
       'sections.cta': SectionsCta;
