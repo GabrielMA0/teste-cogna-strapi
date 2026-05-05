@@ -1,10 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "menus",
+  "collectionName": "headers",
   "info": {
-    "singularName": "menu",
-    "pluralName": "menus",
-    "displayName": "header"
+    "singularName": "header",
+    "pluralName": "headers",
+    "displayName": "Header"
   },
   "options": {
     "draftAndPublish": false
@@ -19,11 +19,10 @@
         "images"
       ]
     },
-    "menu": {
+    "linksMenu": {
       "type": "component",
       "component": "page.menu-item",
-      "repeatable": true,
-      "required": true
+      "repeatable": true
     }
   }
 }
